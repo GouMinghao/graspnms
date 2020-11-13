@@ -1,0 +1,9 @@
+include grasp_nms.pyx
+include grasp_nms.pxd
+include graspnms.cpp
+include graspnms.h
+include geo.h
+include geo.cpp
+include setup.py
+include pyproject.toml
+include LICENSE
