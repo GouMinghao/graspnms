@@ -6,7 +6,7 @@ from Cython.Build import cythonize
 import numpy
 
 setup(
-    version='1.0.0',
+    version='1.0.1',
     description='Grasp NMS',
     author='Minghao Gou',
     author_email='gouminghao@gmail.com',
