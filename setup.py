@@ -1,7 +1,7 @@
 # // Code Written by Minghao Gou
 
 from distutils.core import setup
-
+import setuptools
 from Cython.Build import cythonize
 import numpy
 
@@ -14,5 +14,8 @@ setup(
     name = 'grasp_nms',
     ext_modules=cythonize("grasp_nms.pyx"),
     include_dirs=[numpy.get_include()],
-    install_requires=['cython', 'numpy']
+    install_requires=[
+        'numpy',
+        'cython'
+    ]
 )
